@@ -1,6 +1,9 @@
 @use "../abstracts/" as *;
 
 .card {
+	position: relative;
+	aspect-ratio: 1/0.5;
+
 	background-color: $clr-primary-1;
 	min-width: 350px;
 	padding: 2rem;
@@ -32,5 +35,15 @@
 
 	&__role {
 		color: $clr-primary-2;
+	}
+
+	@media (min-width: 600px) {
+		&__second {
+			margin-top: 1rem;
+		}
+
+		&__third {
+			margin-top: 2rem;
+		}
 	}
 }
