@@ -9,18 +9,38 @@
 	margin-bottom: 1rem;
 	padding: 1rem;
 	border-radius: 10px;
+	max-width: 445px;
 
 	color: $clr-primary-1;
 	font-weight: $fw-bold;
 
 	&__icons {
 		display: flex;
-		align-items: center;
+		gap: 0.25rem;
+		align-items: flex-end;
 		justify-content: center;
+		height: 15px;
 	}
 
 	.star-icon::before {
 		content: url("../../../images/icon-star.svg");
-		display: block;
+		display: flex;
+
+		justify-content: center;
+		width: 20px;
+		height: 15px;
+	}
+
+	&__text {
+		line-height: 1;
+
+		height: 15px;
+		padding: 0.1rem;
+		padding-left: 1rem;
+	}
+
+	@media (min-width: 600px) {
+		flex-direction: row;
+		align-items: center;
 	}
 }
