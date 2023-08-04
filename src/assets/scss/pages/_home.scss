@@ -1,7 +1,35 @@
+@use "../abstracts" as *;
+
 body {
 	display: grid;
 	place-content: center;
 	margin-inline: 1rem;
+
+	margin-top: 5rem;
+}
+.section-one {
+	text-align: center;
+	margin-bottom: 1rem;
+	// outline: 1px solid red;
+
+	display: grid;
+	gap: 3rem;
+}
+
+.main__title {
+	font-size: 2rem;
+	line-height: 1;
+	padding: 0 2rem;
+
+	font-weight: $fw-bold;
+	color: $clr-primary-1;
+
+	margin-bottom: 1.5rem;
+}
+
+.main__summary {
+	color: $clr-neutral-1;
+	font-weight: $fw-medium;
 }
 
 .section-two {
