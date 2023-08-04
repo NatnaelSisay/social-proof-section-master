@@ -1,0 +1,26 @@
+@use "../abstracts/" as *;
+
+.rate {
+	background-color: hsl(303, 10%, 53%, 0.1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin-bottom: 1rem;
+	padding: 1rem;
+	border-radius: 10px;
+
+	color: $clr-primary-1;
+	font-weight: $fw-bold;
+
+	&__icons {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.star-icon::before {
+		content: url("../../../images/icon-star.svg");
+		display: block;
+	}
+}
