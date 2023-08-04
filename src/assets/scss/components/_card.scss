@@ -1,0 +1,36 @@
+@use "../abstracts/" as *;
+
+.card {
+	background-color: $clr-primary-1;
+	max-width: 350px;
+	padding: 2rem;
+
+	border-radius: 10px;
+	color: $clr-neutral-0;
+
+	font-weight: $fw-bold;
+	font-size: 1rem;
+
+	display: grid;
+	gap: 2rem;
+
+	&__heading {
+		display: flex;
+		align-items: center;
+		gap: 1.5rem;
+	}
+
+	&__img {
+		width: 3rem;
+		height: 3rem;
+		border-radius: 50%;
+	}
+
+	&__author {
+		display: block;
+	}
+
+	&__role {
+		color: $clr-primary-2;
+	}
+}
