@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Link](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Link](https://warm-khapse-b4523b.netlify.app/)
+- Live Site URL: [Netlify Link](https://warm-khapse-b4523b.netlify.app/)
 
 ## My process
 
