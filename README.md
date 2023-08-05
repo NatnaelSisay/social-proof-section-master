@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Link](https://warm-khapse-b4523b.netlify.app/)
+- Solution URL: [Github Link](https://github.com/NatnaelSisay/social-proof-section-master)
 - Live Site URL: [Netlify Link](https://warm-khapse-b4523b.netlify.app/)
 
 ## My process
